@@ -1,0 +1,1394 @@
+{
+ "meta": {
+  "title": "จากงบประมาณถึงผู้รับทุน : เส้นทางทุนรัฐบาล ก.พ. ปีงบประมาณ 2569–2570",
+  "agency": "สำนักงาน ก.พ. (สำนักงานคณะกรรมการข้าราชการพลเรือน)",
+  "ministry": "สำนักนายกรัฐมนตรี",
+  "fiscalYear": 2570,
+  "hearingDate": "20 กรกฎาคม 2569",
+  "sources": [
+   "reference/mainfile.pdf — คำชี้แจงงบประมาณ สำนักงาน ก.พ. ปี 2570 (104 หน้า)",
+   "ประกาศสำนักงาน ก.พ. ปีงบประมาณ 2569 — รับสมัคร / รายชื่อผู้สมัคร / ผู้มีสิทธิเข้ารับการประเมิน / ผู้มีสิทธิได้รับทุน"
+  ],
+  "note": "ทุกตัวเลขในหน้านี้ถูกสอบยันกับตัวเลขที่เอกสารต้นทางระบุเอง เป็น assertion ในสคริปต์ ETL",
+  "privacy": "เก็บเฉพาะจำนวนและเลขประจำตัวสอบระหว่างประมวลผล ไม่มีรายชื่อบุคคลใดปรากฏในข้อมูลชุดนี้"
+ },
+ "scopes": {
+  "science": "ทุนรัฐบาลทางด้านวิทยาศาสตร์และเทคโนโลยี (90 ที่นั่ง จัดสรรให้กระทรวง อว.) เป็นคนละแหล่งทุนและอยู่นอกกรอบ 493 ที่นั่ง จึงไม่นับรวมในหน้านี้ทั้งหมด",
+  "sharedExam": "ทุนบุคคลทั่วไปและทุนวิทยาศาสตร์ฯ ใช้การสอบชุดเดียวกัน ผู้สมัครเลือกหน่วยทุนได้สูงสุด 2 อันดับ และเลือกข้ามสองทุนได้ ผู้เข้าสอบทั้งชุดมี 1,671 คน ในจำนวนนี้ 1,389 คนเลือกหน่วยทุนบุคคลทั่วไปอย่างน้อยหนึ่งอันดับ ตัวเลขนี้เป็นส่วนย่อยของผู้เข้าสอบทั้งชุด ไม่ใช่จำนวนผู้เข้าสอบของทุนบุคคลทั่วไปโดยเฉพาะ และไม่สามารถแยกการสอบออกเป็นรายทุนได้",
+  "noSumApplicants": "ทุนบุคคลทั่วไปและทุน UIS สอบคนละชุด (เลขประจำตัวสอบคนละชุดเลข) และข้อมูลชุดนี้ไม่เก็บรายชื่อ จึงไม่สามารถทราบได้ว่ามีผู้สมัครซ้ำระหว่างสองทุนหรือไม่ จำนวนผู้สมัครของสองทุนจึงไม่ถูกนำมาบวกกันในหน้านี้",
+  "openCompetition": "88 ที่นั่งในหน้านี้คือทุนบุคคลทั่วไป (67) และ UIS (21) ซึ่งเป็นสองส่วนของแถว 2.1 ในกรอบจัดสรรปี 2569 ที่มี 285 ที่นั่ง ส่วนที่เหลือ 197 ที่นั่งคือทุนพัฒนาบุคลากรภาครัฐสำหรับข้าราชการประจำ ซึ่งไม่มีการสอบแข่งขันเปิด",
+  "uisSlots": "ผู้มีสิทธิเข้ารับการประเมินของทุน UIS ปรากฏได้ในหน่วยทุนที่เลือกไว้มากกว่าหนึ่งหน่วย ยอดรายหน่วยจึงรวมได้ 49 รายการ ขณะที่จำนวนคนจริงคือ 33 คน",
+  "eligible": "“ผู้มีสิทธิได้รับทุน” คือผู้ที่ผ่านการคัดเลือกและมีสิทธิรับทุน ไม่ใช่จำนวนผู้ที่เดินทางไปศึกษาจริง"
+ },
+ "budget": {
+  "subsidy": [
+   {
+    "year": 2568,
+    "budget": 950000000,
+    "actual": 950000000,
+    "asOf": "30 ก.ย. 2568",
+    "final": true,
+    "execPct": 100.0
+   },
+   {
+    "year": 2569,
+    "budget": 950000000,
+    "actual": 641704600,
+    "asOf": "29 พ.ค. 2569",
+    "final": false,
+    "execPct": 67.55
+   },
+   {
+    "year": 2570,
+    "budget": 800000000,
+    "actual": null,
+    "asOf": null,
+    "final": false,
+    "execPct": null
+   }
+  ],
+  "subsidyNote": "ผลเบิกจ่ายปี 2569 เป็นข้อมูล ณ 29 พ.ค. 2569 (ราว 8 เดือน) จึงยังไม่ใช่ทั้งปี",
+  "selection": [
+   {
+    "name": "1.1 ทุนระดับมัธยมศึกษา",
+    "b68": 335000.0,
+    "b69": 310000.0,
+    "b70": 350000.0,
+    "items": [
+     {
+      "name": "ค่าบำรุงสถานศึกษา/ค่าธรรมเนียมสถานศึกษาที่ใช้เป็นสนามสอบ",
+      "b68": 300000.0,
+      "b69": 250000.0,
+      "b70": 200000.0,
+      "qty": "1 ครั้ง",
+      "rate": 200000.0
+     },
+     {
+      "name": "ค่าจ้างเหมาพิมพ์เอกสารการสอบ",
+      "b68": 35000.0,
+      "b69": 30000.0,
+      "b70": 40000.0,
+      "qty": "1 ครั้ง",
+      "rate": 40000.0
+     },
+     {
+      "name": "ค่าจ้างเหมาในการพิมพ์สมุดเขียนตอบ",
+      "b68": 0,
+      "b69": 30000.0,
+      "b70": 30000.0,
+      "qty": "1 ครั้ง",
+      "rate": 30000.0
+     },
+     {
+      "name": "ค่าใช้จ่ายในการทำกิจกรรม Assessment Center Methods",
+      "b68": 0,
+      "b69": 0,
+      "b70": 80000.0,
+      "qty": "1 งาน",
+      "rate": 80000.0
+     },
+     {
+      "name": "ค่าจ้างจัดทำกิจกรรม Assessment Centers",
+      "b68": 0,
+      "b69": 0,
+      "b70": 0,
+      "qty": null,
+      "rate": 0.0
+     }
+    ]
+   },
+   {
+    "name": "1.2 ทุนระดับปริญญา",
+    "b68": 430000.0,
+    "b69": 280000.0,
+    "b70": 460000.0,
+    "items": [
+     {
+      "name": "ค่าบำรุงสถานศึกษา/ค่าธรรมเนียมสถานศึกษาที่ใช้เป็นสนามสอบ",
+      "b68": 400000.0,
+      "b69": 250000.0,
+      "b70": 300000.0,
+      "qty": "1 ครั้ง",
+      "rate": 300000.0
+     },
+     {
+      "name": "ค่าจ้างเหมาพิมพ์เอกสารการสอบ",
+      "b68": 30000.0,
+      "b69": 30000.0,
+      "b70": 40000.0,
+      "qty": "1 ครั้ง",
+      "rate": 40000.0
+     },
+     {
+      "name": "ค่าใช้จ่ายในการทำกิจกรรม Assessment Center Methods",
+      "b68": 0,
+      "b69": 0,
+      "b70": 120000.0,
+      "qty": "1 งาน",
+      "rate": 120000.0
+     }
+    ]
+   },
+   {
+    "name": "1.3 ทุนเพื่อดึงดูดผู้มีศักยภาพสูง",
+    "b68": 0,
+    "b69": 0,
+    "b70": 80000.0,
+    "items": [
+     {
+      "name": "ค่าใช้จ่ายในการทำกิจกรรม Assessment Center Methods",
+      "b68": 0,
+      "b69": 0,
+      "b70": 80000.0,
+      "qty": "1 งาน",
+      "rate": 80000.0
+     }
+    ]
+   }
+  ],
+  "assessment": {
+   "items": [
+    {
+     "line": "1.1",
+     "lineName": "1.1 ทุนระดับมัธยมศึกษา",
+     "b70": 80000.0
+    },
+    {
+     "line": "1.2",
+     "lineName": "1.2 ทุนระดับปริญญา",
+     "b70": 120000.0
+    },
+    {
+     "line": "1.3",
+     "lineName": "1.3 ทุนเพื่อดึงดูดผู้มีศักยภาพสูง",
+     "b70": 80000.0
+    }
+   ],
+   "total70": 280000.0
+  }
+ },
+ "frame": {
+  "approved": 500,
+  "allocated": 493,
+  "takenTotal": 53,
+  "row21": {
+   "name": "2.1 ทุนตามความต้องการของส่วนราชการ/หน่วยงานของรัฐ(ส่วนกลางและภูมิภาค)- ทุนบุคคลทั่วไประดับปริญญา บรรจุก่อนไปศึกษา- ทุนรัฐบาลเพื่อดึงดูดผู้มีศักยภาพสูงที่กำลังศึกษาอยู่ในสถาบันการศึกษาในประเทศ (UIS)- ทุนพัฒนาบุคลากรภาครัฐ(ศึกษา/ฝึกอบรม)",
+   "allocated": 285,
+   "taken": 2,
+   "takenNote": "และอยู่ ระหว่าง ดำเนิน การ"
+  },
+  "openSeats": 88,
+  "otherInRow21": 197,
+  "asOf": "3 ก.ค. 2569",
+  "approvedOn": "27 มิ.ย. 2568",
+  "byGroup": [
+   {
+    "groupNo": 1,
+    "group": "ทุนที่ทูลเกล้าฯ ถวายเป็นทุนพระราชทาน/โครงการพระราชดำริ",
+    "allocated": 28
+   },
+   {
+    "groupNo": 2,
+    "group": "ทุนสำหรับการเตรียมและพัฒนากำลังคนภาครัฐ",
+    "allocated": 295
+   },
+   {
+    "groupNo": 3,
+    "group": "ทุนพัฒนาทักษะและสมรรถนะสำหรับศตวรรษที่ 21",
+    "allocated": 170
+   }
+  ]
+ },
+ "tracks": [
+  {
+   "track": "normal",
+   "label": "ทุนบุคคลทั่วไประดับปริญญา : บรรจุก่อนไปศึกษา",
+   "shortLabel": "ทุนบุคคลทั่วไประดับปริญญา",
+   "budgetLine": "1.2",
+   "budgetLineName": "1.2 ทุนระดับปริญญา",
+   "announcementDate": "14 พฤศจิกายน 2568",
+   "units": 64,
+   "seats": 67,
+   "awarded": 52,
+   "fillPct": 77.61,
+   "unfilledSeats": 15,
+   "sharedExam": true,
+   "stage1": {
+    "applicants": 1389,
+    "choices": 1389,
+    "sittingTotal": 1671
+   },
+   "stage2": {
+    "people": 185,
+    "slots": 185
+   },
+   "stage3": {
+    "awarded": 52
+   },
+   "emptyUnits": {
+    "total": 15,
+    "noApplicants": 0,
+    "noneShortlisted": 9,
+    "shortlistedNotAwarded": 6,
+    "units": [
+     {
+      "unitCode": "690151402",
+      "agency": "สำนักงานคณะกรรมการข้าราชการพลเรือน",
+      "position": "นิติกร",
+      "field": "กฎหมายมหาชน (Public law)",
+      "level": "โท",
+      "seats": 1,
+      "applicants": 3,
+      "shortlisted": 0,
+      "awarded": 0,
+      "cause": "noneShortlisted"
+     },
+     {
+      "unitCode": "690151406",
+      "agency": "สำนักงานสภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ",
+      "position": "นักวิเคราะห์นโยบายและแผน",
+      "field": "Applied Mathematics",
+      "level": "โท",
+      "seats": 1,
+      "applicants": 6,
+      "shortlisted": 0,
+      "awarded": 0,
+      "cause": "noneShortlisted"
+     },
+     {
+      "unitCode": "690151414",
+      "agency": "กระทรวงการต่างประเทศ",
+      "position": "นักวิเทศสหการ",
+      "field": "Development Studies/ International Policy/ Asian Studies/ Southeast Asian Studies",
+      "level": "โท",
+      "seats": 1,
+      "applicants": 6,
+      "shortlisted": 1,
+      "awarded": 0,
+      "cause": "shortlistedNotAwarded"
+     },
+     {
+      "unitCode": "690151416",
+      "agency": "กรมส่งเสริมสหกรณ์",
+      "position": "นักวิชาการสหกรณ์",
+      "field": "Financial Engineering",
+      "level": "โท",
+      "seats": 1,
+      "applicants": 3,
+      "shortlisted": 0,
+      "awarded": 0,
+      "cause": "noneShortlisted"
+     },
+     {
+      "unitCode": "690151417",
+      "agency": "กรมส่งเสริมสหกรณ์",
+      "position": "นักวิชาการสหกรณ์",
+      "field": "Data Science",
+      "level": "โท",
+      "seats": 1,
+      "applicants": 8,
+      "shortlisted": 1,
+      "awarded": 0,
+      "cause": "shortlistedNotAwarded"
+     },
+     {
+      "unitCode": "690151419",
+      "agency": "กรมการขนส่งทางบก",
+      "position": "นักวิชาการขนส่ง",
+      "field": "Big Data/Data Analytics/ Data Science/ Statistics",
+      "level": "โท",
+      "seats": 1,
+      "applicants": 4,
+      "shortlisted": 0,
+      "awarded": 0,
+      "cause": "noneShortlisted"
+     },
+     {
+      "unitCode": "690151420",
+      "agency": "กรมการขนส่งทางบก",
+      "position": "นักวิชาการขนส่ง",
+      "field": "Urban Transport",
+      "level": "โท",
+      "seats": 1,
+      "applicants": 15,
+      "shortlisted": 1,
+      "awarded": 0,
+      "cause": "shortlistedNotAwarded"
+     },
+     {
+      "unitCode": "690151428",
+      "agency": "กรมป่าไม้",
+      "position": "นักวิชาการป่าไม้",
+      "field": "Forest Economics",
+      "level": "โท",
+      "seats": 1,
+      "applicants": 19,
+      "shortlisted": 1,
+      "awarded": 0,
+      "cause": "shortlistedNotAwarded"
+     },
+     {
+      "unitCode": "690151433",
+      "agency": "กรมพัฒนาธุรกิจการค้า",
+      "position": "นักวิชาการพาณิชย์",
+      "field": "Accounting",
+      "level": "โท",
+      "seats": 1,
+      "applicants": 1,
+      "shortlisted": 0,
+      "awarded": 0,
+      "cause": "noneShortlisted"
+     },
+     {
+      "unitCode": "690151441",
+      "agency": "กรมป้องกันและบรรเทาสาธารณภัย",
+      "position": "วิศวกรเครื่องกล",
+      "field": "Aviation Management/ Aviation Safety",
+      "level": "โท",
+      "seats": 1,
+      "applicants": 7,
+      "shortlisted": 0,
+      "awarded": 0,
+      "cause": "noneShortlisted"
+     },
+     {
+      "unitCode": "690151442",
+      "agency": "กรมป้องกันและบรรเทาสาธารณภัย",
+      "position": "นักวิทยาศาสตร์",
+      "field": "Flood Nowcasting/ Prediction Technology/ Geomatics Engineering/ Hydrological Modeling",
+      "level": "โท",
+      "seats": 1,
+      "applicants": 28,
+      "shortlisted": 3,
+      "awarded": 0,
+      "cause": "shortlistedNotAwarded"
+     },
+     {
+      "unitCode": "690151447",
+      "agency": "สำนักงานประกันสังคม",
+      "position": "นักวิชาการสถิติ/ นักวิชาการแรงงาน",
+      "field": "Actuarial Science/ Data Science/ Data Analytic/ Big Data",
+      "level": "โท",
+      "seats": 1,
+      "applicants": 12,
+      "shortlisted": 0,
+      "awarded": 0,
+      "cause": "noneShortlisted"
+     },
+     {
+      "unitCode": "690151448",
+      "agency": "กรมสวัสดิการและคุ้มครองแรงงาน",
+      "position": "นักวิชาการแรงงาน",
+      "field": "Data Science",
+      "level": "โท",
+      "seats": 1,
+      "applicants": 2,
+      "shortlisted": 0,
+      "awarded": 0,
+      "cause": "noneShortlisted"
+     },
+     {
+      "unitCode": "690151454",
+      "agency": "สำนักงานศาลปกครอง",
+      "position": "พนักงานคดีปกครอง",
+      "field": "กฎหมาย",
+      "level": "โท",
+      "seats": 1,
+      "applicants": 9,
+      "shortlisted": 3,
+      "awarded": 0,
+      "cause": "shortlistedNotAwarded"
+     },
+     {
+      "unitCode": "690151456",
+      "agency": "สำนักงานศาลยุติธรรม",
+      "position": "นักวิเคราะห์นโยบายและแผน",
+      "field": "Data Science/Data Analytics",
+      "level": "โท",
+      "seats": 1,
+      "applicants": 7,
+      "shortlisted": 0,
+      "awarded": 0,
+      "cause": "noneShortlisted"
+     }
+    ]
+   },
+   "topDemand": [
+    {
+     "unitCode": "690151404",
+     "agency": "สำนักงานคณะกรรมการส่งเสริมการลงทุน",
+     "position": "นักวิชาการส่งเสริมการลงทุน",
+     "field": "Business Administration/ International Business/ Business Analytics/ Management/ Economics",
+     "level": "โท",
+     "seats": 1,
+     "applicants": 121,
+     "shortlisted": 5,
+     "awarded": 1
+    },
+    {
+     "unitCode": "690151405",
+     "agency": "สำนักงานสภาความมั่นคงแห่งชาติ",
+     "position": "นักวิเคราะห์นโยบายและแผน",
+     "field": "National Security Policy",
+     "level": "โท",
+     "seats": 1,
+     "applicants": 78,
+     "shortlisted": 5,
+     "awarded": 1
+    },
+    {
+     "unitCode": "690151430",
+     "agency": "กรมทรัพยากรน้ำ",
+     "position": "นักวิชาการสิ่งแวดล้อม",
+     "field": "Catchments and Water/ Water Resources Management/ Hydrogeology/ Conservation Sciences/ Environment",
+     "level": "โท",
+     "seats": 1,
+     "applicants": 73,
+     "shortlisted": 5,
+     "awarded": 1
+    },
+    {
+     "unitCode": "690151437",
+     "agency": "กรมการพัฒนาชุมชน",
+     "position": "นักวิชาการพัฒนาชุมชน",
+     "field": "Sustainable Development",
+     "level": "โท",
+     "seats": 1,
+     "applicants": 73,
+     "shortlisted": 5,
+     "awarded": 1
+    },
+    {
+     "unitCode": "690151403",
+     "agency": "สำนักงานคณะกรรมการข้าราชการพลเรือน",
+     "position": "นักทรัพยากรบุคคล",
+     "field": "การสอน ภาษาอังกฤษ/ Measurement and Evaluation",
+     "level": "โท",
+     "seats": 1,
+     "applicants": 69,
+     "shortlisted": 6,
+     "awarded": 1
+    },
+    {
+     "unitCode": "690151413",
+     "agency": "สำนักงานเศรษฐกิจการคลัง",
+     "position": "เศรษฐกร",
+     "field": "เศรษฐศาสตร์/ การบัญชี/ บริหารธุรกิจ",
+     "level": "โท",
+     "seats": 2,
+     "applicants": 54,
+     "shortlisted": 6,
+     "awarded": 2
+    },
+    {
+     "unitCode": "690151401",
+     "agency": "สำนักงานคณะกรรมการกฤษฎีกา",
+     "position": "นักกฎหมายกฤษฎีกา",
+     "field": "กฎหมายอาญา (Criminal Law)",
+     "level": "โท",
+     "seats": 1,
+     "applicants": 51,
+     "shortlisted": 5,
+     "awarded": 1
+    },
+    {
+     "unitCode": "690151449",
+     "agency": "กระทรวงศึกษาธิการ",
+     "position": "นักทรัพยากรบุคคล",
+     "field": "การบริหาร ทรัพยากรมนุษย์ (Human Resource Management)/ การพัฒนา ทรัพยากรมนุษย์ (Human Resource Development)",
+     "level": "โท",
+     "seats": 1,
+     "applicants": 49,
+     "shortlisted": 5,
+     "awarded": 1
+    },
+    {
+     "unitCode": "690151409",
+     "agency": "กรมศุลกากร",
+     "position": "นักวิชาการศุลกากร",
+     "field": "Economics/ Applied Economics/ Applied Economics and Data Analysis/ Behavioral Economics/ Economics and Public Policy",
+     "level": "โท",
+     "seats": 1,
+     "applicants": 46,
+     "shortlisted": 5,
+     "awarded": 1
+    },
+    {
+     "unitCode": "690151463",
+     "agency": "สำนักงานคณะกรรมการกำกับและส่งเสริมการประกอบธุรกิจประกันภัย",
+     "position": "ระดับเจ้าหน้าที่ (ระดับเจ้าหน้าที่/เจ้าหน้าที่อาวุโส/เจ้าหน้าที่ชำนาญการ)",
+     "field": "วิทยาการ คอมพิวเตอร์/ วิศวกรรม คอมพิวเตอร์/ เทคโนโลยี สารสนเทศ/สถิติ/ คณิตศาสตร์ ประกันภัย/ คณิตศาสตร์ ประยุกต์/ Data Scientist/ บริหารความเสี่ยง",
+     "level": "โท",
+     "seats": 1,
+     "applicants": 37,
+     "shortlisted": 6,
+     "awarded": 1
+    }
+   ],
+   "byAgency": [
+    {
+     "name": "กรมสรรพากร",
+     "seats": 4,
+     "awarded": 4,
+     "units": 3,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กรมการขนส่งทางบก",
+     "seats": 3,
+     "awarded": 1,
+     "units": 3,
+     "fillPct": 33.3
+    },
+    {
+     "name": "กรมทางหลวง",
+     "seats": 3,
+     "awarded": 3,
+     "units": 3,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กรมส่งเสริมสหกรณ์",
+     "seats": 3,
+     "awarded": 1,
+     "units": 3,
+     "fillPct": 33.3
+    },
+    {
+     "name": "สำนักงานศาลปกครอง",
+     "seats": 3,
+     "awarded": 2,
+     "units": 3,
+     "fillPct": 66.7
+    },
+    {
+     "name": "กรมทรัพยากรน้ำ",
+     "seats": 2,
+     "awarded": 2,
+     "units": 2,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กรมที่ดิน",
+     "seats": 2,
+     "awarded": 2,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กรมป้องกันและบรรเทาสาธารณภัย",
+     "seats": 2,
+     "awarded": 0,
+     "units": 2,
+     "fillPct": 0.0
+    },
+    {
+     "name": "กรมพัฒนาธุรกิจการค้า",
+     "seats": 2,
+     "awarded": 1,
+     "units": 2,
+     "fillPct": 50.0
+    },
+    {
+     "name": "กรมราชทัณฑ์",
+     "seats": 2,
+     "awarded": 2,
+     "units": 2,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กรมศุลกากร",
+     "seats": 2,
+     "awarded": 2,
+     "units": 2,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กรมส่งเสริมการปกครองท้องถิ่น",
+     "seats": 2,
+     "awarded": 2,
+     "units": 2,
+     "fillPct": 100.0
+    },
+    {
+     "name": "สำนักงานคณะกรรมการข้าราชการพลเรือน",
+     "seats": 2,
+     "awarded": 1,
+     "units": 2,
+     "fillPct": 50.0
+    },
+    {
+     "name": "สำนักงานศาลยุติธรรม",
+     "seats": 2,
+     "awarded": 1,
+     "units": 2,
+     "fillPct": 50.0
+    },
+    {
+     "name": "สำนักงานอัยการสูงสุด",
+     "seats": 2,
+     "awarded": 2,
+     "units": 2,
+     "fillPct": 100.0
+    },
+    {
+     "name": "สำนักงานเศรษฐกิจการคลัง",
+     "seats": 2,
+     "awarded": 2,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กรมการขนส่งทางราง",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กรมการค้าต่างประเทศ",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กรมการค้าภายใน",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กรมการพัฒนาชุมชน",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กรมคุมประพฤติ",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กรมทางหลวงชนบท",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กรมท่าอากาศยาน",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กรมบังคับคดี",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กรมป่าไม้",
+     "seats": 1,
+     "awarded": 0,
+     "units": 1,
+     "fillPct": 0.0
+    },
+    {
+     "name": "กรมสวัสดิการและคุ้มครองแรงงาน",
+     "seats": 1,
+     "awarded": 0,
+     "units": 1,
+     "fillPct": 0.0
+    },
+    {
+     "name": "กรมส่งเสริมการค้าระหว่างประเทศ",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กรมอุทยานแห่งชาติ สัตว์ป่า และพันธุ์พืช",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กระทรวงการต่างประเทศ",
+     "seats": 1,
+     "awarded": 0,
+     "units": 1,
+     "fillPct": 0.0
+    },
+    {
+     "name": "กระทรวงศึกษาธิการ",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "สถาบันเพื่อการยุติธรรมแห่งประเทศไทย (องค์การมหาชน)",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "สำนักงานการตรวจเงินแผ่นดิน",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "สำนักงานคณะกรรมการกฤษฎีกา",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "สำนักงานคณะกรรมการกำกับและส่งเสริมการประกอบธุรกิจประกันภัย",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "สำนักงานคณะกรรมการป้องกันและปราบปรามการทุจริตแห่งชาติ",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "สำนักงานคณะกรรมการส่งเสริมการลงทุน",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "สำนักงานประกันสังคม",
+     "seats": 1,
+     "awarded": 0,
+     "units": 1,
+     "fillPct": 0.0
+    },
+    {
+     "name": "สำนักงานปลัดกระทรวงทรัพยากรธรรมชาติและสิ่งแวดล้อม",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "สำนักงานปลัดกระทรวงอุตสาหกรรม",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "สำนักงานสภาความมั่นคงแห่งชาติ",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "สำนักงานสภานโยบายการอุดมศึกษา วิทยาศาสตร์ วิจัยและนวัตกรรมแห่งชาติ",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "สำนักงานสภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ",
+     "seats": 1,
+     "awarded": 0,
+     "units": 1,
+     "fillPct": 0.0
+    },
+    {
+     "name": "สำนักงานเลขาธิการวุฒิสภา",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "สำนักงานเลขาธิการสภาผู้แทนราษฎร",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "สำนักเลขาธิการคณะรัฐมนตรี",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    }
+   ],
+   "diagnostics": {
+    "medianApplicantsPerUnit": 15,
+    "gate1EmptyApplicants": [
+     1,
+     2,
+     3,
+     3,
+     4,
+     6,
+     7,
+     7,
+     12
+    ],
+    "shortlistPeoplePerSeat": 2.76,
+    "noReserveUnits": 12,
+    "noReserveEndedEmpty": 4,
+    "inTrackSecondChoice": 0,
+    "clearedNotAwarded": 133,
+    "top5DemandShare": 29.8
+   }
+  },
+  {
+   "track": "uis",
+   "label": "ทุนรัฐบาลเพื่อดึงดูดผู้มีศักยภาพสูงที่กำลังศึกษาอยู่ในสถาบันการศึกษาในประเทศ (UIS)",
+   "shortLabel": "ทุนดึงดูดผู้มีศักยภาพสูง (UIS)",
+   "budgetLine": "1.3",
+   "budgetLineName": "1.3 ทุนเพื่อดึงดูดผู้มีศักยภาพสูง",
+   "announcementDate": "14 พฤศจิกายน 2568",
+   "units": 20,
+   "seats": 21,
+   "awarded": 12,
+   "fillPct": 57.14,
+   "unfilledSeats": 9,
+   "sharedExam": false,
+   "stage1": {
+    "applicants": 125,
+    "choices": 217,
+    "sittingTotal": null
+   },
+   "stage2": {
+    "people": 33,
+    "slots": 49
+   },
+   "stage3": {
+    "awarded": 12
+   },
+   "emptyUnits": {
+    "total": 9,
+    "noApplicants": 1,
+    "noneShortlisted": 3,
+    "shortlistedNotAwarded": 5,
+    "units": [
+     {
+      "unitCode": "6951003",
+      "agency": "กรมสรรพากร",
+      "position": "นักตรวจสอบภาษีปฏิบัติการ",
+      "field": "Accounting & Finance/ International Finance/ Corporate Financial Management/Accounting in Forensic Analysis/Financial Statement Auditing and Advanced Accounting/ Management Accounting and Management control/ International Accounting & Finance Management/ Accounting and Audit/ Accounting and Taxation/ Leading with Finance/ Business Analytics and Management",
+      "level": null,
+      "seats": 1,
+      "applicants": 4,
+      "shortlisted": 1,
+      "awarded": 0,
+      "cause": "shortlistedNotAwarded"
+     },
+     {
+      "unitCode": "6951004",
+      "agency": "กรมสรรพากร",
+      "position": "นักวิชาการภาษีปฏิบัติการ",
+      "field": "Economics/Economics and Public Policy/Economics and Strategy for Business/Applied Economics/Business and Managerial Economics/ International Economics and Finance/Business Economics/ Public Economics/ International Economics",
+      "level": null,
+      "seats": 1,
+      "applicants": 3,
+      "shortlisted": 1,
+      "awarded": 0,
+      "cause": "shortlistedNotAwarded"
+     },
+     {
+      "unitCode": "6951007",
+      "agency": "กรมกิจการผู้สูงอายุ",
+      "position": "นักพัฒนาสังคมปฏิบัติการ",
+      "field": "Public Policy/ Social Innovation",
+      "level": null,
+      "seats": 1,
+      "applicants": 11,
+      "shortlisted": 1,
+      "awarded": 0,
+      "cause": "shortlistedNotAwarded"
+     },
+     {
+      "unitCode": "6951009",
+      "agency": "กรมส่งเสริมและพัฒนาคุณภาพชีวิตคนพิการ",
+      "position": "นักสังคมสงเคราะห์ปฏิบัติการ",
+      "field": "Social Work and Counselling/ Social Welfare/ Social Work",
+      "level": null,
+      "seats": 1,
+      "applicants": 11,
+      "shortlisted": 1,
+      "awarded": 0,
+      "cause": "shortlistedNotAwarded"
+     },
+     {
+      "unitCode": "6951011",
+      "agency": "กรมปศุสัตว์",
+      "position": "นักวิทยาศาสตร์การแพทย์ปฏิบัติการ",
+      "field": "วิทยาศาสตร์",
+      "level": null,
+      "seats": 1,
+      "applicants": 0,
+      "shortlisted": 0,
+      "awarded": 0,
+      "cause": "noApplicants"
+     },
+     {
+      "unitCode": "6951012",
+      "agency": "กรมทางหลวงชนบท",
+      "position": "วิศวกรโยธาปฏิบัติการ",
+      "field": "วิศวกรรมโยธา",
+      "level": null,
+      "seats": 1,
+      "applicants": 1,
+      "shortlisted": 0,
+      "awarded": 0,
+      "cause": "noneShortlisted"
+     },
+     {
+      "unitCode": "6951014",
+      "agency": "กรมอุตุนิยมวิทยา",
+      "position": "นักอุตุนิยมวิทยาปฏิบัติการ",
+      "field": "อุตุนิยมวิทยา/ฟิสิกส์",
+      "level": null,
+      "seats": 1,
+      "applicants": 2,
+      "shortlisted": 0,
+      "awarded": 0,
+      "cause": "noneShortlisted"
+     },
+     {
+      "unitCode": "6951018",
+      "agency": "กรมพินิจและคุ้มครองเด็กและเยาวชน",
+      "position": "นักสังคมสงเคราะห์ปฏิบัติการ",
+      "field": "Social Work/ Children/ Youth and Families/Social Work/ Sociology and Social Policy/Youth and Community Work/ Forensic Social Work",
+      "level": null,
+      "seats": 1,
+      "applicants": 7,
+      "shortlisted": 0,
+      "awarded": 0,
+      "cause": "noneShortlisted"
+     },
+     {
+      "unitCode": "6951019",
+      "agency": "กรมราชทัณฑ์",
+      "position": "นักวิชาการคอมพิวเตอร์ปฏิบัติการ",
+      "field": "Information Technology",
+      "level": null,
+      "seats": 1,
+      "applicants": 5,
+      "shortlisted": 1,
+      "awarded": 0,
+      "cause": "shortlistedNotAwarded"
+     }
+    ]
+   },
+   "topDemand": [
+    {
+     "unitCode": "6951015",
+     "agency": "กรมการปกครอง",
+     "position": "เจ้าพนักงานปกครองปฏิบัติการ",
+     "field": "Regional Development/ Sustainable Development/ Global Development/ International Development/ Gender Equality/ Human Rights/ Human Rights and Cultural Diversity/ International Migration and Human Rights",
+     "level": null,
+     "seats": 1,
+     "applicants": 26,
+     "shortlisted": 6,
+     "awarded": 1
+    },
+    {
+     "unitCode": "6951001",
+     "agency": "สำนักงานคณะกรรมการพัฒนาระบบราชการ",
+     "position": "นักพัฒนาระบบราชการปฏิบัติการ",
+     "field": "Education Science/ Economics/ Political Sciences and Civics/ Psychology/ Sociology and Cultural/ Accounting and Taxation/ Finance/ Banking and Insurance/ Management and Administration",
+     "level": null,
+     "seats": 1,
+     "applicants": 23,
+     "shortlisted": 5,
+     "awarded": 1
+    },
+    {
+     "unitCode": "6951006",
+     "agency": "สำนักงานปลัดกระทรวงการพัฒนาสังคมและความมั่นคงของมนุษย์",
+     "position": "นักวิเคราะห์นโยบายและแผนปฏิบัติการ",
+     "field": "Social Policy/ Social Welfare/ Public Policy/ Social Welfare Policy/ Public Administration",
+     "level": null,
+     "seats": 1,
+     "applicants": 23,
+     "shortlisted": 4,
+     "awarded": 1
+    },
+    {
+     "unitCode": "6951005",
+     "agency": "สำนักงานเศรษฐกิจการคลัง",
+     "position": "เศรษฐกรปฏิบัติการ",
+     "field": "เศรษฐศาสตร์/การบัญชี/ บริหารธุรกิจ",
+     "level": null,
+     "seats": 2,
+     "applicants": 18,
+     "shortlisted": 6,
+     "awarded": 2
+    },
+    {
+     "unitCode": "6951016",
+     "agency": "กรมส่งเสริมการปกครองท้องถิ่น",
+     "position": "นักวิเคราะห์นโยบายและแผนปฏิบัติการ",
+     "field": "Criminal Justice Administration/ Risk Management/ Public Policy/ Public Administration/ Public and Private Management",
+     "level": null,
+     "seats": 1,
+     "applicants": 18,
+     "shortlisted": 5,
+     "awarded": 1
+    },
+    {
+     "unitCode": "6951020",
+     "agency": "สำนักงานปลัดกระทรวงสาธารณสุข",
+     "position": "นักวิเทศสัมพันธ์ปฏิบัติการ",
+     "field": "International Health Policy",
+     "level": null,
+     "seats": 1,
+     "applicants": 18,
+     "shortlisted": 5,
+     "awarded": 1
+    },
+    {
+     "unitCode": "6951017",
+     "agency": "กรมพินิจและคุ้มครองเด็กและเยาวชน",
+     "position": "นักทรัพยากรบุคคลปฏิบัติการ",
+     "field": "Human Resource Management/Human Resource Management and Training/Human Resource and Organization/Human Resource Development/Human Services",
+     "level": null,
+     "seats": 1,
+     "applicants": 14,
+     "shortlisted": 4,
+     "awarded": 1
+    },
+    {
+     "unitCode": "6951008",
+     "agency": "กรมพัฒนาสังคมและสวัสดิการ",
+     "position": "นักพัฒนาสังคมปฏิบัติการ",
+     "field": "Social Development/ Social Service Administration/ Community Development/ Community Planning",
+     "level": null,
+     "seats": 1,
+     "applicants": 12,
+     "shortlisted": 1,
+     "awarded": 1
+    },
+    {
+     "unitCode": "6951002",
+     "agency": "สำนักงานสภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ",
+     "position": "นักวิเคราะห์นโยบายและแผนปฏิบัติการ",
+     "field": "เศรษฐศาสตร์",
+     "level": null,
+     "seats": 1,
+     "applicants": 11,
+     "shortlisted": 4,
+     "awarded": 1
+    },
+    {
+     "unitCode": "6951007",
+     "agency": "กรมกิจการผู้สูงอายุ",
+     "position": "นักพัฒนาสังคมปฏิบัติการ",
+     "field": "Public Policy/ Social Innovation",
+     "level": null,
+     "seats": 1,
+     "applicants": 11,
+     "shortlisted": 1,
+     "awarded": 0
+    }
+   ],
+   "byAgency": [
+    {
+     "name": "กรมปศุสัตว์",
+     "seats": 2,
+     "awarded": 1,
+     "units": 2,
+     "fillPct": 50.0
+    },
+    {
+     "name": "กรมพินิจและคุ้มครองเด็กและเยาวชน",
+     "seats": 2,
+     "awarded": 1,
+     "units": 2,
+     "fillPct": 50.0
+    },
+    {
+     "name": "กรมสรรพากร",
+     "seats": 2,
+     "awarded": 0,
+     "units": 2,
+     "fillPct": 0.0
+    },
+    {
+     "name": "สำนักงานเศรษฐกิจการคลัง",
+     "seats": 2,
+     "awarded": 2,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กรมการปกครอง",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กรมกิจการผู้สูงอายุ",
+     "seats": 1,
+     "awarded": 0,
+     "units": 1,
+     "fillPct": 0.0
+    },
+    {
+     "name": "กรมทางหลวงชนบท",
+     "seats": 1,
+     "awarded": 0,
+     "units": 1,
+     "fillPct": 0.0
+    },
+    {
+     "name": "กรมพัฒนาสังคมและสวัสดิการ",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กรมราชทัณฑ์",
+     "seats": 1,
+     "awarded": 0,
+     "units": 1,
+     "fillPct": 0.0
+    },
+    {
+     "name": "กรมส่งเสริมการปกครองท้องถิ่น",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "กรมส่งเสริมและพัฒนาคุณภาพชีวิตคนพิการ",
+     "seats": 1,
+     "awarded": 0,
+     "units": 1,
+     "fillPct": 0.0
+    },
+    {
+     "name": "กรมอุตุนิยมวิทยา",
+     "seats": 1,
+     "awarded": 0,
+     "units": 1,
+     "fillPct": 0.0
+    },
+    {
+     "name": "สำนักงานคณะกรรมการพัฒนาระบบราชการ",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "สำนักงานปลัดกระทรวงการพัฒนาสังคมและความมั่นคงของมนุษย์",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "สำนักงานปลัดกระทรวงสาธารณสุข",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "สำนักงานสถิติแห่งชาติ",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    },
+    {
+     "name": "สำนักงานสภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ",
+     "seats": 1,
+     "awarded": 1,
+     "units": 1,
+     "fillPct": 100.0
+    }
+   ],
+   "diagnostics": {
+    "medianApplicantsPerUnit": 11,
+    "gate1EmptyApplicants": [
+     1,
+     2,
+     7
+    ],
+    "shortlistPeoplePerSeat": 1.57,
+    "noReserveUnits": 6,
+    "noReserveEndedEmpty": 5,
+    "inTrackSecondChoice": 92,
+    "clearedNotAwarded": 21,
+    "top5DemandShare": 49.8
+   }
+  }
+ ],
+ "totals": {
+  "seats": 88,
+  "awarded": 64,
+  "fillPct": 72.73,
+  "emptyUnits": 24,
+  "gates": {
+   "noApplicants": 1,
+   "noneShortlisted": 12,
+   "shortlistedNotAwarded": 11
+  }
+ },
+ "observations": [
+  {
+   "id": "demand-not-constraint",
+   "title": "อุปสงค์ไม่ใช่ข้อจำกัด — ที่นั่งว่างเกิดที่ด่านคัดเลือก ไม่ใช่ที่การรับสมัคร",
+   "body": "หน่วยทุนที่ไม่มีผู้ได้รับทุนเลยมี 24 หน่วย จาก 88 ที่นั่งที่เปิดสอบแข่งขัน ในจำนวนนี้มีเพียง 1 หน่วยที่ไม่มีผู้สมัครเลือกเลย อีก 12 หน่วยมีผู้สมัครแต่ไม่มีใครผ่านเข้ารอบสอง และ 11 หน่วยมีผู้เข้ารอบสองแต่ไม่มีใครได้รับทุน หน่วยที่ 690151404 (สำนักงานคณะกรรมการส่งเสริมการลงทุน) มีผู้สมัครเลือก 121 คน ต่อ 1 ที่นั่ง",
+   "source": "ประกาศ ก.พ. ปี 2569 — รายชื่อผู้สมัคร / ผู้มีสิทธิเข้ารับการประเมิน / ผู้มีสิทธิได้รับทุน",
+   "kind": "finding"
+  },
+  {
+   "id": "assessment-center-gate",
+   "title": "งบ Assessment Center ปี 2570 มุ่งไปที่ด่านที่สอง แต่ด่านแรกคัดคนออกมากกว่า",
+   "body": "ปี 2570 ตั้งงบ “ค่าใช้จ่ายในการทำกิจกรรม Assessment Center Methods” รวม 280,000 บาท กระจายในรายการ 1.1 / 1.2 / 1.3 (จากเดิม 0 บาททั้งปี 2568 และ 2569) ด่านที่งบก้อนนี้รองรับคือการประเมินรอบสอง ซึ่งเป็นจุดที่ทำให้ 11 หน่วยไม่ได้ผู้รับทุน ขณะที่ 12 หน่วยหยุดอยู่ก่อนหน้านั้น คือไม่มีผู้สมัครรายใดผ่านเกณฑ์การสอบข้อเขียนเข้ารอบสองเลย",
+   "source": "mainfile.pdf รายการ 1.1–1.3 (งบคัดเลือก) เทียบกับประกาศผลปี 2569",
+   "kind": "finding"
+  },
+  {
+   "id": "row21-under-reported",
+   "title": "ตารางกรอบจัดสรรในเอกสารงบ ระบุแถว 2.1 ว่าได้ผู้รับทุนแล้ว 2 ราย ขณะที่ประกาศระบุ 64 ราย",
+   "body": "กรอบจัดสรรทุนปี 2569 (สถานะ ณ 3 ก.ค. 2569) ระบุแถว 2.1 จำนวน 285 ที่นั่ง และช่อง “ดำเนินการแล้ว” เท่ากับ 2 ราย (และอยู่ ระหว่าง ดำเนิน การ) รวมทั้งกรอบ 493 ที่นั่ง ระบุดำเนินการแล้ว 53 ราย แต่ประกาศรายชื่อผู้มีสิทธิได้รับทุนของสองทุนที่อยู่ในแถว 2.1 ซึ่งลงวันที่ 14 พฤศจิกายน 2568 คือก่อนหน้าวันที่ของตาราง ระบุผู้มีสิทธิได้รับทุนแล้ว 64 ราย",
+   "source": "mainfile.pdf หน้า 62–64 เทียบกับประกาศ ก.พ. 14 พ.ย. 2568",
+   "kind": "discrepancy"
+  },
+  {
+   "id": "uis-zero-budget",
+   "title": "ทุน UIS จัดสอบแข่งขันเต็มรูปแบบในปี 2569 โดยรายการงบคัดเลือก 1.3 ตั้งไว้ 0 บาท",
+   "body": "ปีงบประมาณ 2569 ทุน UIS มีผู้สมัคร 125 คน ผู้มีสิทธิเข้ารับการประเมิน 33 คน และผู้มีสิทธิได้รับทุน 12 คน ขณะที่รายการ “1.3 ทุนเพื่อดึงดูดผู้มีศักยภาพสูง” ตั้งงบไว้ 0 บาท ทั้งปี 2568 และ 2569 งบก้อนแรกของรายการนี้ปรากฏในปี 2570 จำนวน 80,000 บาท",
+   "source": "mainfile.pdf รายการ 1.3 เทียบกับประกาศ UIS ปี 2569",
+   "kind": "finding"
+  },
+  {
+   "id": "line12-cut",
+   "title": "รายการ 1.2 ถูกลดลง 35% ในปี 2569 เกือบทั้งหมดมาจากค่าสนามสอบ",
+   "body": "งบคัดเลือกทุนระดับปริญญา (รายการ 1.2) ลดจาก 430,000 บาท ในปี 2568 เหลือ 280,000 บาท ในปี 2569 ส่วนต่าง 150,000 บาท โดย 150,000 บาท มาจากค่าสนามสอบรายการเดียว (400,000 → 250,000 บาท) ปีเดียวกันนี้เป็นปีที่มีผู้เข้าสอบ 1,671 คน",
+   "source": "mainfile.pdf รายการ 1.2",
+   "kind": "observation"
+  },
+  {
+   "id": "unit-code-typos",
+   "title": "เลขหน่วยทุนพิมพ์ผิดสองรายการ ทำให้ผลถูกนับเข้าหน่วยผิดถ้าไม่ตรวจจับ",
+   "body": "ประกาศผู้มีสิทธิเข้ารับการประเมิน ปี 2569 พิมพ์เลขหน่วยของสำนักงานเศรษฐกิจการคลังเป็น 680151413 (ขึ้นต้น 68 ซึ่งเป็นปี 2568) และประกาศผู้มีสิทธิได้รับทุนทุนวิทยาศาสตร์ฯ พิมพ์ 680330032 ในลักษณะเดียวกัน กรณีแรกทำให้ผู้เข้ารอบสองหกรายถูกนับรวมเข้ากับหน่วยก่อนหน้า ยอดรวมทุกตัวยังถูกต้อง การนับผิดหน่วยจึงตรวจไม่พบด้วยการตรวจยอดรวม ต้องใช้เงื่อนไขว่าผู้เข้ารอบสองต้องเลือกหน่วยนั้นจริง",
+   "source": "oscc/2569_normal_stage2.pdf, oscc/2569_science_recepient.pdf",
+   "kind": "discrepancy"
+  },
+  {
+   "id": "continuing-scholars",
+   "title": "จำนวนนักเรียนทุนเดิมในเอกสารไม่ตรงกันระหว่างสองหน้า",
+   "body": "ตารางรายประเทศ (หน้า 57) รวมนักเรียนทุนเดิมได้ 678 คน ขณะที่หน้า 56 ระบุ 679 คน ส่วนต่าง 1 คนเป็นความคลาดเคลื่อนของเอกสารต้นทาง",
+   "source": "mainfile.pdf หน้า 56 และ 57",
+   "kind": "discrepancy"
+  },
+  {
+   "id": "frame-500-493",
+   "title": "กรอบที่อนุมัติ 500 ทุน กับที่จัดสรรแล้ว 493 ทุน เป็นคนละจำนวน ไม่ใช่ความคลาดเคลื่อน",
+   "body": "เอกสารระบุกรอบที่ อ.ก.พ. วิสามัญฯ อนุมัติเมื่อ 27 มิ.ย. 2568 ไว้ที่ 500 ทุน ขณะที่ตารางสถานะ ณ 3 ก.ค. 2569 รวมได้ 493 ทุน ส่วนต่าง 7 ทุนคือที่นั่งที่ยังไม่ได้เปิด ทั้งสองจำนวนเอกสารระบุไว้เอง จึงไม่ใช่ข้อผิดพลาด",
+   "source": "mainfile.pdf หน้า 62 และ 64",
+   "kind": "observation"
+  }
+ ],
+ "recommendations": {
+  "items": [
+   {
+    "id": "reconcile-framework",
+    "title": "สอบทานตารางกรอบจัดสรรกับประกาศผลก่อนเสนอคำของบประมาณ",
+    "body": "ตารางกรอบจัดสรรระบุแถว 2.1 ว่าดำเนินการแล้ว 2 ราย ณ 3 ก.ค. 2569 ขณะที่ประกาศรายชื่อผู้มีสิทธิได้รับทุนของสองทุนในแถวเดียวกัน ลงวันที่ 14 พฤศจิกายน 2568 ซึ่งเป็นเวลาก่อนหน้าราวแปดเดือน ระบุไว้แล้ว 64 ราย ผู้พิจารณางบประมาณที่อ่านตัวเลข 2 จาก 285 ย่อมสรุปว่าการดำเนินงานยังแทบไม่คืบหน้า การปรับสถานะให้ตรงกับประกาศที่เผยแพร่แล้ว เป็นการแก้ไขที่ไม่มีต้นทุนและให้ผลต่อความเข้าใจมากที่สุด",
+    "basis": "กรอบจัดสรรแถว 2.1 (ดำเนินการแล้ว 2) เทียบประกาศผล (64 ราย)",
+    "theme": "การรายงาน"
+   },
+   {
+    "id": "exercise-clause-910",
+    "title": "ใช้อำนาจทดแทนข้ามหน่วยทุนตามข้อ ๙.๑๐ ที่ประกาศกำหนดไว้แล้ว หรือชี้แจงเหตุที่ใช้ไม่ได้",
+    "body": "ประกาศรับสมัครปี 2569 ข้อ ๙.๑๐ ระบุไว้เองว่า “กรณีที่ทุนหน่วยใดไม่มีผู้สมัครสอบหรือไม่มีผู้มีสิทธิได้รับทุน คณะกรรมการดำเนินการสอบแข่งขันและคัดเลือกฯ อาจพิจารณาให้ผู้สอบแข่งขันได้จากทุนหน่วยอื่น หรือทุนอื่น เป็นผู้มีสิทธิได้รับทุนแทน” กลไกนี้จึงมีอยู่แล้ว และครอบคลุมสถานการณ์ที่เกิดขึ้นจริงพอดี แต่ผลปี 2569 คือมี 24 หน่วยที่ไม่มีผู้ได้รับทุน ขณะที่มีผู้ผ่านการสอบข้อเขียน แต่ไม่ได้รับทุน 154 คน ในการสอบครั้งเดียวกัน ข้อ ๙.๑๐ ใช้คำว่า “อาจ” จึงเป็นดุลพินิจ ไม่ใช่หน้าที่ ข้อเสนอคือกำหนดให้การพิจารณาตามข้อ ๙.๑๐ เป็นขั้นตอนปกติทุกครั้งที่มีหน่วยว่าง และให้รายงานเหตุผลเมื่อไม่สามารถทดแทนได้ เพื่อให้ทราบว่าที่นั่งว่างเกิดจากข้อจำกัดด้านคุณวุฒิ หรือเกิดจากการไม่ได้พิจารณา",
+    "basis": "ประกาศรับสมัครปี 2569 ข้อ ๙.๑๐ (ทดแทนข้ามหน่วย) เทียบข้อ ๙.๘–๙.๙ (ทดแทนภายในหน่วยเดิม) · หน่วยที่ว่าง 24 หน่วย · ผ่านข้อเขียนแต่ไม่ได้รับทุน 154 คน",
+    "theme": "การใช้กฎที่มีอยู่"
+   },
+   {
+    "id": "mean-threshold",
+    "title": "ทบทวนเกณฑ์ผ่านข้อเขียนที่อิงค่าเฉลี่ยรวม ซึ่งทำให้หน่วยที่มีผู้สมัครน้อยว่างโดยโครงสร้าง",
+    "body": "ประกาศข้อ ๙.๒.๑ และ ๙.๒.๒ กำหนดว่าผู้มีสิทธิเข้ารับการประเมินต้องได้คะแนนทั้งวิชาภาษาอังกฤษ และวิชาความสามารถทั่วไปเชิงวิชาการ “ไม่ต่ำกว่าคะแนนเฉลี่ย (Mean) ของผู้เข้าสอบทั้งหมด” เกณฑ์นี้เป็นเกณฑ์เชิงเปรียบเทียบที่คิดจากผู้เข้าสอบทั้งชุด 1,671 คน ไม่ใช่เกณฑ์เฉพาะของแต่ละหน่วยทุน โดยนิยามแล้วจึงมีผู้เข้าสอบราวครึ่งหนึ่งอยู่ต่ำกว่าค่าเฉลี่ยในแต่ละวิชา หน่วยที่มีผู้สมัครน้อยจึงมีโอกาสสูงที่จะไม่มีผู้ผ่านเลย ด้วยเหตุผลทางเลขคณิต ไม่ใช่เพราะคุณภาพผู้สมัคร หน่วยทั้ง 9 แห่งของทุนบุคคลทั่วไปที่ไม่มีใครผ่านด่านแรก มีผู้สมัคร 1–12 คน เทียบกับค่ากลางทั้งทุนที่ 15 คนต่อหน่วย ข้อสังเกตประกอบ: เพดานบัญชีผู้เข้ารอบสองตามข้อ ๙.๒.๓ อยู่ที่ ๕ เท่าต่อ ๑ ทุน แต่ที่เกิดขึ้นจริงคือ 2.76 คนต่อที่นั่ง ปัญหาจึงอยู่ที่พื้นคะแนน ไม่ใช่ที่เพดาน",
+    "basis": "ประกาศข้อ ๙.๒.๑–๙.๒.๓ · ผู้สมัครของหน่วยที่ไม่มีใครผ่านด่านแรก [1, 2, 3, 3, 4, 6, 7, 7, 12] คน เทียบค่ากลาง 15 คนต่อหน่วย · บัญชีผู้เข้ารอบสองจริง 2.76 คนต่อที่นั่ง (เพดาน ๕ เท่า)",
+    "theme": "กระบวนการคัดเลือก"
+   },
+   {
+    "id": "thin-reserve",
+    "title": "หน่วยที่มีผู้เข้ารอบสองไม่เกินจำนวนที่นั่ง ไม่มีตัวสำรองเมื่อผู้ถูกประเมินไม่ผ่านเกณฑ์ร้อยละ ๗๐",
+    "body": "ประกาศข้อ ๙.๓ กำหนดว่าผู้สอบแข่งขันได้ต้องมีคะแนนการประเมินความเหมาะสมไม่ต่ำกว่าร้อยละ ๗๐ เมื่อรวมกับข้อ ๙.๘–๙.๙ ซึ่งให้เลื่อนผู้ที่ได้คะแนนลำดับถัดไป “ของทุนหน่วยนั้น” เท่านั้น หน่วยที่มีผู้เข้ารอบสองไม่เกินจำนวนที่นั่งจึงไม่มีลำดับถัดไปให้เลื่อน ปี 2569 มีหน่วยลักษณะนี้ 18 หน่วย และในจำนวนนั้น 9 หน่วยลงเอยด้วยที่นั่งว่าง ความลึกของบัญชีผู้เข้ารอบสองอยู่ที่ 2.76 คนต่อที่นั่งในทุนบุคคลทั่วไป และ 1.57 คนต่อที่นั่งในทุน UIS",
+    "basis": "ประกาศข้อ ๙.๓ (เกณฑ์ร้อยละ ๗๐) และข้อ ๙.๘–๙.๙ (เลื่อนลำดับภายในหน่วยเดิม) · หน่วยที่ไม่มีตัวสำรอง 18 หน่วย ว่างจริง 9 หน่วย",
+    "theme": "กระบวนการคัดเลือก"
+   },
+   {
+    "id": "one-unit-per-track",
+    "title": "พิจารณาให้เลือกหน่วยทุนได้มากกว่าหนึ่งหน่วยภายในประเภททุนเดียวกัน",
+    "body": "ประกาศข้อ ๖.๕ กำหนดว่าผู้สมัครมีสิทธิสมัครได้ ๒ ประเภททุน โดยแต่ละประเภททุนเลือกได้ ๑ หน่วยทุน และข้อ ๖.๖ ห้ามเพิ่ม ถอน หรือเปลี่ยนหน่วยทุนภายหลัง ข้อมูลปี 2569 สอดคล้องกับกฎนี้ทุกประการ คือไม่มีผู้สมัครรายใดเลยจาก 1,389 คน ที่เลือกหน่วยทุนบุคคลทั่วไปมากกว่าหนึ่งหน่วย ผลคือผู้สมัครที่เลือกหน่วยซึ่งมีการแข่งขันสูงและไม่ได้รับทุน ไม่มีหน่วยสำรองให้พิจารณา ขณะที่หน่วยซึ่งมีผู้สมัครน้อยก็ไม่มีโอกาสเข้าถึงผู้สมัครกลุ่มนั้น ข้อสังเกตประกอบ: ทุน UIS เปิดให้เลือก ๒ หน่วยทุนอยู่แล้ว และ 92 จาก 125 คนใช้สิทธิ์นั้น แต่ยังเติมที่นั่งได้ต่ำกว่า (57.14% เทียบ 77.61%) การเปิดให้เลือกหลายหน่วยเพียงอย่างเดียวจึงไม่เพียงพอ ต้องใช้ร่วมกับการพิจารณาทดแทนข้ามหน่วยตามข้อ ๙.๑๐ ข้างต้น",
+    "basis": "ประกาศข้อ ๖.๕–๖.๖ · ผู้เลือกสองหน่วยในประเภททุนเดียวกัน: ทุนบุคคลทั่วไป 0 จาก 1,389 คน, UIS 92 จาก 125 คน",
+    "theme": "โครงสร้างการสมัคร"
+   },
+   {
+    "id": "budget-covers-one-gate",
+    "title": "งบ Assessment Center ปี 2570 ครอบคลุมด่านเดียวจากสองด่านที่ทำให้ที่นั่งว่าง",
+    "body": "งบ 280,000 บาท รองรับการประเมินรอบสอง ซึ่งเป็นด่านที่ทำให้ 11 หน่วยไม่ได้ผู้รับทุน แต่อีก 12 หน่วยหยุดก่อนถึงด่านนั้น คือไม่มีผู้สมัครรายใดผ่านการสอบข้อเขียน คำของบปี 2570 ยังไม่มีรายการใดที่มุ่งไปยังด่านแรกหรือไปยังขนาดของกลุ่มผู้สมัคร ทั้งที่ปี 2569 รายการ 1.2 ถูกปรับลด 150,000 บาท ในปีที่มีผู้เข้าสอบ 1,671 คน",
+    "basis": "หน่วยว่างแยกตามด่าน: ก่อนรอบสอง 12 หน่วย, ที่รอบสอง 11 หน่วย, ไม่มีผู้สมัคร 1 หน่วย",
+    "theme": "งบประมาณ"
+   },
+   {
+    "id": "targeted-recruitment",
+    "title": "ประชาสัมพันธ์แบบเจาะจงหน่วยทุนที่มีผู้สมัครน้อย",
+    "body": "อุปสงค์ไม่ได้ขาด แต่กระจุกตัว หน่วยทุน 5 อันดับแรกของทุนบุคคลทั่วไปรับผู้สมัครรวม 29.8% ของทั้งทุน ขณะที่หน่วยซึ่งไม่มีใครผ่านด่านแรกมีผู้สมัครเพียง 1–12 คน ตัวอย่างที่ชัดที่สุดคือหน่วยงานเดียวกันที่มีที่นั่งอยู่ทั้งสองทุน มี 6 หน่วยงานในลักษณะนี้ และบางแห่งเติมที่นั่งได้ต่างกันมาก ทั้งที่เป็นส่วนราชการเดียวกันในปีเดียวกัน ความต่างจึงอยู่ที่กลุ่มผู้สมัครที่ประกาศไปถึง ไม่ใช่ที่ตัวส่วนราชการ",
+    "basis": "ความกระจุกตัว: 5 หน่วยแรก = 29.8% ของผู้สมัครทุนบุคคลทั่วไป · หน่วยงานที่มีที่นั่งทั้งสองทุน 6 แห่ง",
+    "theme": "การรับสมัคร"
+   },
+   {
+    "id": "budget-matches-activity",
+    "title": "ตั้งงบรายการคัดเลือกให้ตรงกับกิจกรรมที่ดำเนินจริง",
+    "body": "รายการ 1.3 ทุนเพื่อดึงดูดผู้มีศักยภาพสูง ตั้งไว้ 0 บาท ทั้งปี 2568 และ 2569 ขณะที่ปี 2569 ทุน UIS ดำเนินการสอบแข่งขันเต็มรูปแบบ มีผู้สมัคร 125 คน และประกาศผลครบทุกขั้นตอน ค่าใช้จ่ายที่เกิดขึ้นจริงจึงถูกรับไว้ที่รายการอื่นโดยไม่ปรากฏในบรรทัดนี้ ทำให้ต้นทุนต่อการคัดเลือกหนึ่งรอบของทุนนี้ตรวจสอบไม่ได้จากเอกสารงบประมาณ",
+    "basis": "รายการ 1.3 = 0 บาท ปี 2568 และ 2569, 80,000 บาท ปี 2570",
+    "theme": "งบประมาณ"
+   },
+   {
+    "id": "unit-code-validation",
+    "title": "ตรวจสอบเลขหน่วยทุนอัตโนมัติก่อนเผยแพร่ประกาศ",
+    "body": "พบเลขหน่วยทุนพิมพ์ผิดสองรายการในประกาศปี 2569 โดยขึ้นต้นด้วย 68 แทน 69 กรณีหนึ่งทำให้ผู้เข้ารอบสองหกรายถูกนับรวมเข้ากับหน่วยก่อนหน้า ยอดรวมทุกตัวยังถูกต้อง การตรวจด้วยยอดรวมจึงไม่พบความผิดพลาดประเภทนี้ ควรตรวจว่าเลขหน่วยทุกเลขที่ปรากฏในประกาศผลมีอยู่จริงในประกาศรับสมัครปีเดียวกัน และผู้เข้ารอบสองทุกรายต้องเคยเลือกหน่วยนั้นไว้",
+    "basis": "oscc/2569_normal_stage2.pdf (680151413), oscc/2569_science_recepient.pdf (680330032)",
+    "theme": "คุณภาพข้อมูล"
+   }
+  ],
+  "caveat": "ข้อเสนอข้างต้นตั้งอยู่บนสมมติฐานว่าที่นั่งว่าง 24 หน่วยเป็นสิ่งที่ควรลด ซึ่งข้อมูลชุดนี้พิสูจน์ไม่ได้ อัตราเติมที่นั่ง 72.7% อาจสะท้อนการรักษามาตรฐานการคัดเลือกไว้อย่างเคร่งครัด และการเติมที่นั่งให้เต็มด้วยการลดเกณฑ์ย่อมเป็นผลเสียมากกว่า ข้อมูลบอกได้เพียงกลไกที่ทำให้ที่นั่งว่าง ไม่ได้บอกว่าผลลัพธ์นั้นพึงประสงค์หรือไม่ อย่างไรก็ดี คำของบประมาณยังคงขอที่นั่งเหล่านี้ต่อเนื่อง ซึ่งสื่อว่าต้องการให้เติมเต็ม ขณะที่กระบวนการปฏิบัติต่อเกณฑ์อย่างเคร่งครัด ซึ่งสื่อว่ายอมให้ว่างได้ สำนักงาน ก.พ. ควรระบุให้ชัดว่าถือแนวทางใด เพราะข้อเสนอที่เกี่ยวกับเกณฑ์คัดเลือกและโครงสร้างการเลือกหน่วยทุน จะสมเหตุสมผลเฉพาะภายใต้แนวทางแรกเท่านั้น ส่วนข้อเสนอเรื่องการรายงานและคุณภาพข้อมูลใช้ได้ทั้งสองแนวทาง",
+  "note": "ส่วนนี้เป็นข้อเสนอจากการวิเคราะห์ ไม่ใช่ข้อความที่ปรากฏในเอกสารต้นทาง ต่างจากส่วนที่ 6 ซึ่งระบุเฉพาะสิ่งที่เอกสารระบุไว้เอง ทุกข้อจึงกำกับฐานตัวเลขที่ใช้ไว้ด้วย"
+ }
+}

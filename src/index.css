@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-ink: #0f172a;
+  --color-muted: #64748b;
+  --color-hairline: #e2e8f0;
+  --color-canvas: #f8fafc;
+  --color-surface: #ffffff;
+  --color-primary: #0f766e;
+  --color-secondary: #1e3a8a;
+  --color-amber: #b45309;
+
+  /* Channel triplets for Tailwind. A bare var() cannot take an alpha, so
+     utilities like bg-primary/10 compile to nothing unless the token is
+     expressed as "R G B" and consumed via rgb(var(--x) / <alpha-value>). */
+  --rgb-ink: 15 23 42;
+  --rgb-muted: 100 116 139;
+  --rgb-hairline: 226 232 240;
+  --rgb-canvas: 248 250 252;
+  --rgb-surface: 255 255 255;
+  --rgb-primary: 15 118 110;
+  --rgb-secondary: 30 58 138;
+  --rgb-amber: 180 83 9;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-canvas);
+  color: var(--color-ink);
+  font-family: 'Noto Sans Thai', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  line-height: 1.75;
+  overflow-wrap: break-word;
+  word-break: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Thai has no inter-word spacing; tracking smears its clusters. */
+body {
+  letter-spacing: normal;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+table {
+  font-variant-numeric: tabular-nums;
+}
+
+::selection {
+  background-color: rgba(15, 118, 110, 0.15);
+}
+
+/* Recharts chrome overrides: recessive gridlines, muted ticks */
+.recharts-cartesian-axis-tick text {
+  fill: var(--color-muted);
+  font-family: 'Noto Sans Thai', system-ui, sans-serif;
+}
+
+.recharts-cartesian-grid-horizontal line {
+  stroke: var(--color-hairline);
+}
+
+.recharts-cartesian-grid-vertical line {
+  stroke: transparent;
+}
+
+.recharts-tooltip-wrapper {
+  outline: none;
+}
+
+details > summary {
+  cursor: pointer;
+}
+
+details > summary::-webkit-details-marker {
+  display: none;
+}

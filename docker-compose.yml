@@ -1,0 +1,8 @@
+services:
+  ocsc-scholarship-narrative-2570:
+    build: .
+    image: ocsc-scholarship-narrative-2570
+    container_name: ocsc-scholarship-narrative-2570
+    ports:
+      - "8092:80"      # 8080 scholarship-insights, 8090 budget, 8091 scholarship
+    restart: unless-stopped
